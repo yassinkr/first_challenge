@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Sora', sans-serif;
-    background-color: #E5EAF0;
+    background-color: #FAFAF9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,21 +12,21 @@ body{
 }
 
 .card{
-    background-color: #FAFAF9;
+    background-color: #FFFFFF;
     width: 368px;
     border-radius: 16px;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: middle;
+    align-content: center;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: middle;
+    align-content: center;
 }
 
 .picture{
@@ -50,6 +50,7 @@ img{
     border-radius: 16px;
     text-align: center;
     width: fit-content;
+    height: fit-content;
     padding: 6px 16px;
     font-size:10px ;
     font-weight:bold;
@@ -60,7 +61,7 @@ img{
     flex-direction: column;
     justify-content: space-between;
     align-content: middle;
-    padding: 6px 6px 16px 20px;
+    padding: 10px 6px 20px 16px;
 }
 .title{
     font-size:18px ;
