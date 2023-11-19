@@ -1,0 +1,79 @@
+
+
+body{
+    font-family: 'Sora', sans-serif;
+    background-color: #E5EAF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;;
+    
+
+}
+
+.card{
+    background-color: #FAFAF9;
+    width: 368px;
+    border-radius: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: middle;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: middle;
+}
+
+.picture{
+    width: 336px;
+    height: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+ 
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category{
+    background-color:#E6D6FC;
+    color: #883AE1;
+    border-radius: 16px;
+    text-align: center;
+    width: fit-content;
+    padding: 6px 16px;
+    font-size:10px ;
+    font-weight:bold;
+    margin: 0 0 0 16px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: middle;
+    padding: 6px 6px 16px 20px;
+}
+.title{
+    font-size:18px ;
+    color:#20293A;
+    padding: 6px 0px;
+}
+
+.discreption{
+    font-size:14px ;
+    color:#6C727F;
+}
+.author{
+    font-size:12px ;
+    color:#6C727F;
+    padding: 20px 16px;
+    border-top: 1px solid #E5EAF0; 
+}
